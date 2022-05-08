@@ -13,6 +13,8 @@
 		12D31D652827E53D00C6597F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D31D532827E53D00C6597F /* ContentView.swift */; };
 		12D31D662827E53D00C6597F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D31D542827E53D00C6597F /* Assets.xcassets */; };
 		12D31D672827E53D00C6597F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D31D542827E53D00C6597F /* Assets.xcassets */; };
+		12D31D742827E60100C6597F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D31D732827E60100C6597F /* LocationManager.swift */; };
+		12D31D752827E60100C6597F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D31D732827E60100C6597F /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		12D31D592827E53D00C6597F /* WeatherIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D31D5F2827E53D00C6597F /* WeatherIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D31D612827E53D00C6597F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		12D31D732827E60100C6597F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,7 @@
 		12D31D512827E53D00C6597F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				12D31D722827E5DE00C6597F /* Managers */,
 				12D31D522827E53D00C6597F /* WeatherIOApp.swift */,
 				12D31D532827E53D00C6597F /* ContentView.swift */,
 				12D31D542827E53D00C6597F /* Assets.xcassets */,
@@ -76,6 +80,14 @@
 				12D31D612827E53D00C6597F /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		12D31D722827E5DE00C6597F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				12D31D732827E60100C6597F /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +190,7 @@
 			files = (
 				12D31D642827E53D00C6597F /* ContentView.swift in Sources */,
 				12D31D622827E53D00C6597F /* WeatherIOApp.swift in Sources */,
+				12D31D742827E60100C6597F /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +200,7 @@
 			files = (
 				12D31D652827E53D00C6597F /* ContentView.swift in Sources */,
 				12D31D632827E53D00C6597F /* WeatherIOApp.swift in Sources */,
+				12D31D752827E60100C6597F /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
