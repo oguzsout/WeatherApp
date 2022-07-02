@@ -17,6 +17,8 @@
 		12D31D752827E60100C6597F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D31D732827E60100C6597F /* LocationManager.swift */; };
 		F15E0A9B286724A400500E7D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E0A9A286724A400500E7D /* WelcomeView.swift */; };
 		F15E0A9C286724A400500E7D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E0A9A286724A400500E7D /* WelcomeView.swift */; };
+		F1F635D028709E96004C6C54 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F635CF28709E96004C6C54 /* LoadingView.swift */; };
+		F1F635D128709E96004C6C54 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F635CF28709E96004C6C54 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,7 @@
 		12D31D612827E53D00C6597F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		12D31D732827E60100C6597F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		F15E0A9A286724A400500E7D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		F1F635CF28709E96004C6C54 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 			children = (
 				12D31D532827E53D00C6597F /* ContentView.swift */,
 				F15E0A9A286724A400500E7D /* WelcomeView.swift */,
+				F1F635CF28709E96004C6C54 /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +207,7 @@
 				12D31D642827E53D00C6597F /* ContentView.swift in Sources */,
 				12D31D622827E53D00C6597F /* WeatherIOApp.swift in Sources */,
 				12D31D742827E60100C6597F /* LocationManager.swift in Sources */,
+				F1F635D028709E96004C6C54 /* LoadingView.swift in Sources */,
 				F15E0A9B286724A400500E7D /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +219,7 @@
 				12D31D652827E53D00C6597F /* ContentView.swift in Sources */,
 				12D31D632827E53D00C6597F /* WeatherIOApp.swift in Sources */,
 				12D31D752827E60100C6597F /* LocationManager.swift in Sources */,
+				F1F635D128709E96004C6C54 /* LoadingView.swift in Sources */,
 				F15E0A9C286724A400500E7D /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
